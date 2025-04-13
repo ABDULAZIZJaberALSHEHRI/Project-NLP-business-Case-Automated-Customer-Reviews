@@ -30,7 +30,7 @@ else:
 
 # ------------------------------------------------
 # Create FastAPI app and mount static/template directories.
-app = FastAPI(title="Unified Product Analysis API (0.1.0)")
+app = FastAPI(title="Unified Product Analysis API (0.1.0) ")
 app.mount("/static", StaticFiles(directory="static"), name="static")
 templates = Jinja2Templates(directory="templates")
 
